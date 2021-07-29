@@ -1,0 +1,32 @@
+name: Post Next AFM Sunday School Lessons (10:30 on Sunday)
+
+on:
+  schedule:
+    - cron: '30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post Senior Lesson
+        run: |
+          curl -X POST \
+          --url '${{ secrets.APP_URL }}/api/publish' \
+          -H "Content-Type: application/json" \
+          -H 'Authorization: Bearer ${{ secrets.API_ACCESS_KEY }}' \
+          -d '{"contentType":"lessons", "category":"senior", "appUrl": "${{ secrets.APP_URL }}", "comment": "Thank you for attending Sunday School today. Here is the *Senior* Lesson for next Sunday."}'
+      - name: Post Junior Lesson
+        run: |
+          curl -X POST \
+          --url '${{ secrets.APP_URL }}/api/publish' \
+          -H "Content-Type: application/json" \
+          -H 'Authorization: Bearer ${{ secrets.API_ACCESS_KEY }}' \
+          -d '{"contentType":"lessons", "category":"junior", "appUrl": "${{ secrets.APP_URL }}", "comment": "Thank you for attending Sunday School today. Here is the *Junior* Lesson for next Sunday."}'
+      - name: Post Elementary Lesson
+        run: |
+          curl -X POST \
+          --url '${{ secrets.APP_URL }}/api/publish' \
+          -H "Content-Type: application/json" \
+          -H 'Authorization: Bearer ${{ secrets.API_ACCESS_KEY }}' \
+          -d '{"contentType":"lessons", "category":"elementary", "appUrl": "${{ secrets.APP_URL }}", "comment": "Thank you for attending Sunday School today. Here is the *Elementary* Lesson for next Sunday."}'
