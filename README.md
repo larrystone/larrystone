@@ -32,7 +32,7 @@
 
 
 <p align="center">
-<span>Some of the skills in my toolkit...</span>
+<span>Stuffs I like to work with</span>
 <br /><br />
 <img align="center" alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
 <img align="center" alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
