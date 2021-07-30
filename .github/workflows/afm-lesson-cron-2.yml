@@ -1,8 +1,8 @@
-name: Post Next AFM Sunday School Lessons (5:30 on Saturday)
+name: Post Next AFM Sunday School Lessons (4:15 on Saturday)
 
 on:
   schedule:
-    - cron: '50 * * * *'
+    - cron: '15 16 * * SAT'
   workflow_dispatch:
 
 jobs:
