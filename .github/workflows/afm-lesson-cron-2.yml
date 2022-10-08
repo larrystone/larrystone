@@ -33,7 +33,7 @@ jobs:
       - name: Post Combined lesson Image
         run: |
           curl -X POST \
-          --url '${{ secrets.APP_URL }}/api/publish?combined=true' \
+          --url '${{ secrets.APP_URL }}/api/publish' \
           -H "Content-Type: application/json" \
           -H 'Authorization: Bearer ${{ secrets.API_ACCESS_KEY }}' \
           -d '{"combined":true}'
