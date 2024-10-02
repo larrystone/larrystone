@@ -1,18 +1,17 @@
+<h1>
+  <img src="https://github.com/user-attachments/assets/0eadedc8-23b9-492e-81b8-dec9a042f973" alt="larrystone_header" />
+</h1>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/8871565/127454440-abe152b6-8c25-40be-b3dc-fa3dca057a51.png" width="120" />  
+  <h3 align="center">I'm Lanre Lawal</h3>
+  <p align="center">
+    <a href="https://larrystone.dev">Portfolio</a> | 
+    <a href="https://twitter.com/Larrystonegroup">Twitter</a> |
+    <a href="https://www.linkedin.com/in/lawallanre/">LinkedIn</a>
+  </p>
   <h1 align="center">
-  <a href="https://larrystone.dev">
-    I'm Lanre Lawal (larrystone) <br/><br/>
-  <img src="https://img.shields.io/website?label=larrystone.dev&style=for-the-badge&url=https%3A%2F%2Flarrystone.dev" />
+    <a href="https://larrystone.dev">
+    <img src="https://img.shields.io/website?label=larrystone.dev&style=for-the-badge&url=https%3A%2F%2Flarrystone.dev" />
   </a></h1>
-  </a>
-  <p align="center"> Fullstack Software Engineer and Human!</p>
-</p>
-
-<p align="center">
-  <a href="https://larrystone.dev">Portfolio</a> | 
-  <a href="https://twitter.com/Larrystonegroup">Twitter</a> |
-  <a href="https://www.linkedin.com/in/lawallanre/">LinkedIn</a>
 </p>
 
 <br />
